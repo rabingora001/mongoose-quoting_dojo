@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h3>All the quotes are here!!!!</h3>
+
+    <% for(var anyvar of quotes){ %>
+    <p>--<%=anyvar.name%></p>
+    <P><%=anyvar.quote%></P>
+    <p><%=anyvar.createdAt%></p>
+    <p><%=anyvar.updatedAt%></p>
+    <%} %>
+</body>
+</html>
